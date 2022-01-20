@@ -1,0 +1,92 @@
+.main {
+  color: var(--main-color-light);
+  width: 100%;
+  display: flex;
+}
+
+.titleDiv {
+  line-height: 1.7;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 !important;
+  padding: 0.3rem 0.2rem;
+}
+
+.titleIcon {
+  font-size: 1rem !important;
+  opacity: 0;
+  transition: transform 0.18s linear !important;
+}
+
+.main:hover {
+  .titleIcon {
+    opacity: 1;
+  }
+  .title {
+    border-bottom: 3px solid !important;
+  }
+}
+
+.title {
+  color: white;
+  padding: 0;
+  margin: 0.2rem 1rem;
+  font-size: 1.2rem !important;
+  text-align: left;
+  border-bottom: 3px solid transparent;
+}
+
+.active {
+  .titleIcon {
+    color: white;
+    transform: rotate(180deg) !important;
+    opacity: 1;
+  }
+}
+
+.show {
+  color: #588157;
+  position: absolute;
+  left: max(16.7%, 10rem);
+  margin: 0 !important;
+  padding-top: 0.7rem;
+  border-radius: 8px;
+  background-color: rgb(0, 32, 58);
+  z-index: 3;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.optionLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon {
+  font-size: 1.3rem !important;
+  margin-right: 0.3rem;
+}
+
+.text {
+}
+
+.switch {
+  margin-left: 1rem;
+  width: 7.125rem;
+}
+
+.legend {
+  font-size: 0.75rem !important;
+  color: #5090d3;
+}

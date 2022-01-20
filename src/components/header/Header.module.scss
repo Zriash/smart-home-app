@@ -1,0 +1,15 @@
+.main {
+  padding: 0;
+  margin: 0;
+  color: white;
+  height: 3.5rem;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(25, 118, 210, 1) 49%,
+    rgba(88, 129, 87, 1) 84%
+  );
+  text-align: center;
+}

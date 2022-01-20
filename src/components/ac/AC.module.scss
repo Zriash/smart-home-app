@@ -1,0 +1,79 @@
+.head {
+  color: var(--main-color-blue);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: left;
+}
+.titleTemp {
+  text-decoration: underline;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconBtn {
+  cursor: pointer;
+  font-size: 2rem !important;
+  transition: transform 0.2s;
+  &:hover {
+    opacity: 68%;
+  }
+  &:active {
+    transform: scale(1.2);
+  }
+}
+
+.on {
+  color: #1976d2;
+}
+
+.off {
+  color: gray;
+}
+
+.brightness {
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.cold {
+    color: rgb(41, 41, 233);
+}
+
+.hot {
+    color: rgb(207, 0, 0)
+}

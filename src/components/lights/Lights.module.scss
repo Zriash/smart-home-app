@@ -1,0 +1,76 @@
+.head {
+  color: var(--main-color-blue);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: left;
+}
+
+.lightControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dimmer {
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBtn {
+  cursor: pointer;
+  font-size: 2rem !important;
+  transition: transform 0.2s;
+  &:hover {
+    opacity: 68%;
+  }
+  &:active {
+    transform: scale(1.2);
+  }
+}
+
+.on {
+  color: #1976d2;
+}
+
+.off {
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.brightness {
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.iconBrightness {
+  font-size: 2.7rem !important;
+  padding: 0 0.5rem;
+  margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.color {
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.active {
+    cursor: pointer;
+}

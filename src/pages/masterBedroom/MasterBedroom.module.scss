@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  flex: 4;
+  background-color: rgb(255, 252, 246);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--webkit-box-shadow);
+  width: 90%;
+  height: 18rem;
+  margin: 2rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.small {
+  flex: 2;
+  width: 22%;
+  height: 18rem;
+  align-self: center;
+  margin-left: 2rem;
+  padding-top: 8%;
+}
+
+@media (max-width: 630px) {
+  .first {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .small {
+    padding-top: 2%;
+  }
+  .section {
+    height: auto;
+  }
+}
